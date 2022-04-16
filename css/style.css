@@ -22,12 +22,12 @@
  *
  *===================*/
 body {
-  line-height: 24px;
-  font-size: 14px;
-  color: #80d6a3;
-  font-weight: 400;
-  color: #444;
-  font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    color: #80d6a3;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -76,6 +76,9 @@ a:active {
 .nav > li > a:focus {
   background: transparent;
 }
+#nav li a {
+}
+
 .title {
   text-align: center;
   padding-bottom: 70px;
@@ -1318,6 +1321,3 @@ footer p {
   -webkit-transition-duration: .2s;
   -webkit-transition-timing-function: ease-in-out;
 }
-
-
-
